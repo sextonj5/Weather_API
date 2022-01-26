@@ -38,4 +38,4 @@ This file contains 8 test cases implemented in pytest
 The commands used to intialise the DB and both tables (sensors and sensordata)
 
 ### ClientTest.py
-This file contains more advanced test cases which are not implemented in pytest, due to the time contraints of the project it was easier to check these tests pass by eye rather than with pytest. This file was written at the beginning of the project to set a goal for the functionality I wanted the final code to have.
+This file contains more test cases which are not implemented in pytest, due to the time contraints of the project it was easier to check the output of the code vy eye rather than with pytest. This file was written at the beginning of the project to set a goal for the functionality I wanted the final code to have.
