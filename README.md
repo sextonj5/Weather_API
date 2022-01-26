@@ -24,7 +24,7 @@ An SQLite DB containing two tables:
 
 * sensordata - contains a list of sensor readings (temperature and humidity). There is also an automatically generated Unique Primary key id for each sensor reading. Each reading also has a time stamp in unix time.
 
-### Http.py
+### HTTP.py
 This file containes each of the 4 Http Rest API endpoints 
 * GET /senor
 * POST /sensor
