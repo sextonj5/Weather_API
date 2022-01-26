@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import sys
 import json
-from Genesys import add_sensor, add_sensor_datapoint, retrieve_data_by_city, retrieve_datapoint_by_time
+from DBInterface import add_sensor, add_sensor_datapoint, retrieve_data_by_city, retrieve_datapoint_by_time
 app = Flask(__name__)
 
 @app.post("/sensor")
