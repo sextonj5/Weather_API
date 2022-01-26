@@ -12,4 +12,16 @@ An SQLite DB containing two tables:
 * sensordata - contains a list of sensor readings (temperature and humidity) There is an automatically generated Unique Primary key id for each sensor reading. Each reading also has a time stamp in unix time.
 
 ### Http.py
-This file containes each of the 4 Rest endpoints (GET /senor, POST /sensor, GET /sensordata, POST /sensordata)
+This file containes each of the 4 Http Rest endpoints 
+* GET /senor
+* POST /sensor
+* GET /sensordata
+* POST /sensordata
+
+### Tests.py
+
+
+### CreateDB.py
+
+
+### ClientTest.py
