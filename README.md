@@ -8,14 +8,14 @@
 (The below setup is for running on MS Windows. Linux and MacOS setups differ slightly but go beyond the scope of the project)
 * In the command line navigate to the root directory of this project
 * run the following commands:
-    set FLASK_APP=HTTP.py
-    set FLASK_ENV=development
-    flask run
+    <br/>set FLASK_APP=HTTP.py
+    <br/>set FLASK_ENV=development
+    <br/>flask run
  * To run integration testing open a new command line and navigate to the root directory of this project
  * Run the following command:
-    pytest ./Tests.py
+    <br/>pytest ./Tests.py
  * More advanced testcases can be ran using the following command
-    python Client_Test.py
+    <br/>python Client_Test.py
 
 ## Structure
 ### Weather.db
