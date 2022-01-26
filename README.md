@@ -39,3 +39,6 @@ The commands used to intialise the DB and both tables (sensors and sensordata)
 
 ### ClientTest.py
 This file contains more test cases which are not implemented in pytest, due to the time contraints of the project it was easier to check the output of the code vy eye rather than with pytest. This file was written at the beginning of the project to set a goal for the functionality I wanted the final code to have.
+
+### DBInterface
+This File contains data functions which interface with the DB. When a get or post request is handled by the flask app the request data is inputted into the corresponding function in this file. 
